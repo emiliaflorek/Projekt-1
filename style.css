@@ -1,0 +1,182 @@
+.navbar 
+{
+	background-color: black;
+}
+#img-front
+{
+	background-image: url("images/background3.jpg");
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+}
+.img-cont
+{
+	position: relative;
+	text-align: center;
+	color: orange;
+	font-family: 'open sans', sans-serif;
+}
+.centered
+{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'open sans', sans-serif;
+	font-size: 80px;
+	
+}
+#main-container
+{
+	color: black;
+	text-align: center;
+	background-color: ffffff;
+	margin-top: 90px;
+}
+#buttons
+{
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 20px;
+    text-align: center;
+    
+}
+.wrapper {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 4px;
+    position: relative;
+    width: 150px;
+    line-height: 40px;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden;
+}
+.button:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    transform: skewX(-45deg) translateX(0px);
+    transition: none;
+  }
+.button:hover{
+    background-color: orange;
+    color: #ffffff;
+    border-bottom: 2px solid orange;
+}
+
+.button:hover:before{
+    transform: skewX(-45deg) translateX(250px);
+    transition: all 0.4s ease-in;
+}
+
+.orange-text
+{
+	color: orange;
+}
+.white-text
+{
+	color: white;
+	font-size: 20px;
+}
+#border-left
+{
+	border-color: orange !important;
+}
+.row
+{
+	margin-bottom: 100px;
+	text-align: justify;
+	border: none;
+}
+#table{
+	padding: 50px;
+	text-align: center;
+	border-top-style: dotted;
+	border-top-color: orange;
+	border-width: 3px;
+}
+.container-fluid
+{
+	padding:0;
+	width: 100%;
+}
+.footer {
+   background-color: grey;
+   color: #FFFFFF;
+   padding: 10px 0;
+}
+.orange-btn {
+   background-color: orange;
+   border-color: orange;
+   margin-left: auto;
+   margin-left: auto;
+}
+.application-form {
+   display: block;
+   margin: 0 auto;
+}
+
+.yt
+{
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	float:left;
+}
+
+.fb
+{
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.pp
+{
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.tw
+{
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 20px;
+	height: 40px;
+	font-size: 40px;
+}
+.send
+{
+	background-color: orange;
+	margin-bottom: 74px;
+	text-align: left;
+	color: white;
+	font-size: 13px;
+}
