@@ -180,3 +180,13 @@ a.sociallink
 	color: white;
 	font-size: 13px;
 }
+.img-row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+#bottom-img
+{
+	margin-bottom: 3rem !important;
+}
